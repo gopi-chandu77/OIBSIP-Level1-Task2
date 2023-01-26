@@ -1,0 +1,164 @@
+.topright {
+  float: right;
+}
+.sbox {
+  text-decoration: none;
+  height: 20px;
+  width: 100px;
+  padding: 6px;
+  border-radius: 5px;
+  color: black;
+  /* background-color: red; */
+  background: rgb(248, 253, 29);
+  background: linear-gradient(
+    90deg,
+    rgba(248, 253, 29, 1) 15%,
+    rgba(252, 210, 69, 1) 89%
+  );
+}
+.sbox:hover {
+  /* color: blue; */
+  background: rgb(248, 253, 29);
+  background: linear-gradient(
+    180deg,
+    rgba(248, 253, 29, 1) 15%,
+    rgba(252, 210, 69, 1) 89%
+  );
+}
+
+body {
+  font-family: cursive;
+  /* background-color: #F4DFBA; */
+  background: rgb(252, 242, 118);
+  background: linear-gradient(
+    126deg,
+    rgba(252, 242, 118, 1) 27%,
+    rgba(128, 255, 209, 1) 74%
+  );
+  color: black;
+}
+.propic {
+  border-radius: 100%;
+  height: 100%;
+  width: 100%;
+}
+.cardbig {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  padding: 10px;
+  margin-top: 20px;
+  background: rgb(10, 3, 126);
+  background: linear-gradient(
+    90deg,
+    rgba(10, 3, 126, 1) 0%,
+    rgba(250, 255, 35, 1) 0%,
+    rgba(255, 175, 45, 1) 100%
+  );
+}
+.pic {
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  /* background-color: gold; */
+  margin: 20px 10px 10px 10px;
+}
+.textBesideProPic {
+  height: 150px;
+  width: 500px;
+  /* background-color: red; */
+  position: relative;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
+  text-align: left;
+  bottom: 5px;
+
+  /* margin-bottom: 35px; */
+  /* padding: 10 10 10 10; */
+}
+.dots {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  height: 0px;
+  width: 60px;
+
+  /* align-items: center; */
+  text-align: center;
+  color: orange;
+}
+.heads {
+  text-align: center;
+}
+.card {
+  background: rgb(10, 3, 126);
+  background: linear-gradient(
+    90deg,
+    rgba(10, 3, 126, 1) 0%,
+    rgba(250, 255, 35, 1) 0%,
+    rgba(255, 175, 45, 1) 100%
+  );
+  width: 350px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70px;
+  padding-top: 10px;
+}
+.cardtext {
+  text-align: center;
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.tll {
+  margin-left: 10px;
+  width: 200px;
+}
+.tlr {
+  width: 150px;
+}
+.rowht {
+  height: 50px;
+  /* width:100px; */
+}
+.hob1 {
+  height: 250px;
+  width: 200px;
+  /* background-color: green; */
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  /* position: relative; */
+}
+.hob2 {
+  height: 250px;
+  width: 200px;
+  /* background-color: blue; */
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.hob3 {
+  height: 250px;
+  width: 200px;
+  /* background-color: red; */
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.container {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: black; */
+}
+.show {
+  height: 200px;
+  width: 200px;
+}
+.bottomleft {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
